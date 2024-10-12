@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <h1 class="tituloP">Sistema MRP</h1>
+    </header>
+  <div class="retangulo"></div>
+    <div class="bordaCima"></div>
+    <div class="bordaBaixo"></div>
+  
+ <form id="myForm" action="https://script.google.com/macros/s/AKfycby00XbQdnABflUSq1tUMYd0aAkaYIn1klLZ06EFyx9t5UpSLFvHpX4_1H0XewVng-LY/exec" method="post">
+        <h2>Lista de Materiais</h2>
+
+        <label for="produtoLista">Selecione o Produto da Lista:</label>
+        <select name="produtoLista" id="produtoLista">
+            <option value="">Selecione um produto</option>
+        </select>
+
+        <label for="produtos">Produtos (Matéria-Prima):</label>
+        <select name="produtos[]" multiple size="5" id="produtos">
+        </select>
+
+        <h3>Número Necessário Para Fabricação:</h3>
+        <div class="input-group">
+            <label for="numero_1">Número 1:</label>
+            <input type="number" name="numero_1" id="numero_1">
+        </div>
+        <div class="input-group">
+            <label for="numero_2">Número 2:</label>
+            <input type="number" name="numero_2" id="numero_2">
+        </div>
+        <div class="input-group">
+            <label for="numero_3">Número 3:</label>
+            <input type="number" name="numero_3" id="numero_3">
+        </div>
+        <div class="input-group">
+            <label for="numero_4">Número 4:</label>
+            <input type="number" name="numero_4" id="numero_4">
+        </div>
+        <div class="input-group">
+            <label for="numero_5">Número 5:</label>
+            <input type="number" name="numero_5" id="numero_5">
+        </div>
+        <div class="input-group">
+            <label for="numero_6">Número 6:</label>
+            <input type="number" name="numero_6" id="numero_6">
+        </div>
+        <div class="input-group">
+            <label for="numero_7">Número 7:</label>
+            <input type="number" name="numero_7" id="numero_7">
+        </div>
+        <div class="input-group">
+            <label for="numero_8">Número 8:</label>
+            <input type="number" name="numero_8" id="numero_8">
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <link rel="stylesheet" href="stile.css">
+        <script src="anim.js"></script>
+</body>
+</html>
+
